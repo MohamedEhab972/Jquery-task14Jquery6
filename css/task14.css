@@ -1,0 +1,146 @@
+:root {
+  --main-color: #d62e33;
+}
+.seP {
+  color: var(--main-color) !important;
+}
+#header {
+  height: 100vh;
+  background-image: url(../image/events-heavenly-header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.layer {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.info h2 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+.info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.singer {
+  background-color: #e68285;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.singerInfo {
+  text-align: center;
+  background-color: #cccccc;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+}
+.Text {
+  display: none;
+}
+#countdown {
+  background-image: url(../image/invitation-2508607__340.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+#countdown::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  z-index: -1;
+}
+#timeCo {
+  z-index: 100;
+}
+.col-md-3 .box {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.sochial span {
+  padding: 12px;
+}
+#contactUs h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+}
+#prg {
+  font-weight: 300;
+  font-size: 24px;
+  color: rgb(119, 119, 119);
+}
+strong {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+#contactUs .row .box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(119, 119, 119);
+}
+.icons {
+  color: rgb(119, 119, 119);
+}
+.sochial span:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+button {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+  border: none;
+  margin-block: 15px;
+}
+.lastP {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+#Num {
+  color: var(--main-color);
+}
+#navbar {
+  left: 0;
+  top: 0;
+}
+#navbar .boxNav {
+  background-color: black;
+  white-space: nowrap;
+  width: 0;
+  overflow-x: hidden;
+}
+#navbar a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  padding-inline: 20px;
+  margin: 10px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+#navbar a:hover {
+  color: var(--main-color);
+}
+#open {
+  top: 50%;
+  left: 110%;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 30px;
+  z-index: 100;
+  cursor: pointer;
+  width: 105px;
+  overflow: hidden;
+  white-space: nowrap;
+}
