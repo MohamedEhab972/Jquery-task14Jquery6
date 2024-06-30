@@ -1,5 +1,6 @@
 :root {
   --main-color: #d62e33;
+  scroll-behavior: auto;
 }
 .seP {
   color: var(--main-color) !important;

@@ -81,6 +81,6 @@ let navLinks = $(".boxNav a").not("#ex");
 navLinks.on("click", function (e) {
   let x = $(e.target).attr("href");
   let navLinksOffset = $(x).offset().top;
-  $("body").animate({ scrollTop: navLinksOffset }, 3000);
+  $("html").animate({ scrollTop: navLinksOffset }, 2000);
 });
-// $(" body").animate({ scrollTop: 500 }, 3000);
+
